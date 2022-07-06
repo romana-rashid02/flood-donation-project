@@ -6,12 +6,12 @@ h1{
     margin: 0;
     font-size: 40px;
 }
-p{
+#banner-para{
     font-size: 20px;
     font-weight: bold;
 }
 .banner{
-    background-image: url(images/flood.jpg.crdownload);
+    background-image: url(images/flood-damaged-estate-concept_140689-3282.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -75,4 +75,50 @@ p{
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 50px;
+}
+.donation-plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.donation-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+#food-item{
+    background-color: rgb(202, 234, 247);
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 5%;
+    
+    /* margin-left: 250px; */
+}
+#shelter-item{
+    background-color: rgb(241, 206, 212);
+    padding: 20px;
+    border-radius: 5%;
+}
+#education-item{
+    background-color: rgb(245, 232, 206);
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+
+
+footer{
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: brown;
 }
