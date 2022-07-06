@@ -1,9 +1,10 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
 }
 p{
     font-size: 20px;
@@ -13,12 +14,7 @@ p{
     background-image: url(images/flood.jpg.crdownload);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header-container{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,4 +26,53 @@ p{
     padding: 10px;
     color: white;
     border-radius: 5%;
+}
+.donation-amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.taka{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount{
+    margin: 10px; 
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(220, 240, 247);
+    border-radius: 5%;
+    text-align: center;
+}
+#two-hundred-taka{
+    background-color: rgb(241, 187, 196);
+    margin: 10px; 
+    padding: 10px;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    border: 2px solid tomato;
+}
+.input-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input-field{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+}
+.donation-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
