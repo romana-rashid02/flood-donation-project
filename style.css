@@ -122,3 +122,39 @@ footer{
     background-color: black;
     color: brown;
 }
+.update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(246, 225, 187);
+}
+.form-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    row-gap: 0;
+}
+.email{
+    background-color: rgb(195, 180, 180);
+    border: none;
+    padding: 10px;
+    margin-right: -6px;
+}
+.submit{
+    background-image: linear-gradient(tomato, red);
+    border: none;
+    padding: 10px;
+    color: white;
+}
