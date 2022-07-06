@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner{
+    background-image: url(images/flood.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px;
+    color: white;
+    border-radius: 5%;
+}
