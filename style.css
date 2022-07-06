@@ -27,6 +27,10 @@ h1{
     color: white;
     border-radius: 5%;
 }
+#button-id{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 .donation-amount{
     display: flex;
     align-items: center;
@@ -55,7 +59,8 @@ h1{
     width: 100px;
     border-radius: 5%;
     text-align: center;
-    border: 2px solid tomato;
+    border: 2px solid rgb(220, 72, 72);
+    color: rgb(224, 69, 69);
 }
 .input-class{
     display: flex;
@@ -95,8 +100,6 @@ h1{
     margin-right: 10px;
     padding: 20px;
     border-radius: 5%;
-    
-    /* margin-left: 250px; */
 }
 #shelter-item{
     background-color: rgb(241, 206, 212);
@@ -109,18 +112,39 @@ h1{
     padding: 20px;
     border-radius: 5%;
 }
-
-
-
-footer{
-    font-family: 'Lobster', cursive;
+.alternative-methods{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 50px;
-    background-color: black;
-    color: brown;
+}
+.other-methods{
+    background-color: rgb(173, 220, 204);
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+.other-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.half-width{
+    width: 50%;
+    margin-top: 50px;
+}
+.half-width img{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.payment-header{
+    color: blue
+}
+.image{
+    width: 50px;
+    height: 50px;
 }
 .update{
     display: flex;
@@ -157,4 +181,14 @@ footer{
     border: none;
     padding: 10px;
     color: white;
+}
+footer{
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: brown;
 }
